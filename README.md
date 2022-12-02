@@ -12,7 +12,7 @@ source env/bin/activate
 ```
 pip install -r requirements.txt
 ```
-- Run inference :
+- Run inference:
 ```
 python control_inference_sockeye_experiments.py --config /.../mta-inference/config/example.json --database <<database_name>> --run_name <<run_name>> --dataset_name <<dataset_name>>
 ```
